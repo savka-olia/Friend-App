@@ -7,5 +7,6 @@
     d) generate devise model 
     e) rails db:migrate
     f) edit header (add new routes)
+-Associations (means that every user has his own friend list). A User has_many friend. Those friends belongs_to User. rails g migration add_user_id_to_friends user_id:integer
 
  
